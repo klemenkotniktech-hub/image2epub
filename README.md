@@ -1,6 +1,6 @@
 # image2epub
 
-A simple tool to convert folders of images into a fixed-layout EPUB format for manga.
+A simple tool to convert folders of images into a fixed-layout EPUB format for example a manga.
 
 ## Project purpose
 
@@ -33,19 +33,19 @@ Convert images from sequential chapters into an EPUB file where each page is rep
   - legacy usage with a chapter folder path and optional output path
 
 ## Expected input book image structure
-book
- |
- ├── Chapter 001
- |      ├── Chapter_001_1
- |      ├── Chapter_001_2
- |       ...
- |      └──Chapter_001_100
- ├── Chapter 002
- |      ├── Chapter_002_1
- |      ├── Chapter_002_2
- |       ...
- |      └──Chapter_002_100
-...
+book  
+ |  
+ ├── Chapter 001  
+ |      ├── Chapter_001_1  
+ |      ├── Chapter_001_2  
+ |       ...  
+ |      └──Chapter_001_100  
+ ├── Chapter 002  
+ |      ├── Chapter_002_1  
+ |      ├── Chapter_002_2  
+ |       ...  
+ |      └──Chapter_002_100  
+...  
 
 ## How to run
 
